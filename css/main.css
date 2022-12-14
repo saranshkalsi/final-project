@@ -148,7 +148,7 @@ h4 {
 
 /* Our Vision Section */
 .wrapper.vision {
-    background-image: url("/images/vision.jpg");
+    background-image: url("../images/vision.jpg");
     background-repeat: no-repeat;
     margin: 0 0 20px 0;
     background-size: 1260px 500px;
