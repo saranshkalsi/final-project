@@ -1,0 +1,477 @@
+
+/* Text and Sizing for complete page */
+body {
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 auto;
+    max-width: 760px;
+}
+
+/* Mobile Responsive Navbar */
+.navigation {
+    padding: 20px;
+    background-color: #222;
+    
+}
+
+nav .image { 
+    padding: 20px;
+    background-color: #c78c06;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #c78c06;
+}
+
+nav ul li {
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 20px;
+}
+
+
+nav ul li:hover {
+    background-color: #c78c06;
+}
+
+nav ul li:hover > a{
+    color: #222;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 20px;
+    width: auto;
+}
+
+.navigation input[type=text] {
+    width: 80%;
+    padding: 20px;
+    margin: 10px 0;
+    color: #222;
+}
+
+.search-btn {
+    background-color: #222;
+    border-color: #c78c06;
+    color: #c78c06;
+    padding: 10px;
+}
+
+/* Main Banner */
+.banner {
+    background-image: url(/images/main-banner.jpg);
+    background-repeat: no-repeat;
+    padding: 100px 0;
+}
+
+.welcome-box {
+    background-color: rgba(0, 0, 0, 50%);
+    padding: 50px 20px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 5rem;
+    color: white;
+}
+
+p {
+    font-weight: 400;
+    color: white;
+    padding: 20px 0 20px 0;
+}
+
+.connect-button {
+    background-color: #c78c06;
+    border: none;
+    padding: 20px;
+    margin: 20px 0;
+    font-size: 1.3rem;
+}
+
+.fa {
+    font-size: 2rem;
+}
+
+.wrapper {
+    background-color: #ffe6ac;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    padding: 40px 0;
+}
+
+h4 {
+    font-weight: 700;
+    font-size: 2.5rem;
+    margin: 20px 0;
+}
+
+.wrapper p {
+    color: black;
+}
+
+.wrapper.services
+{
+    background-color: white;
+}
+
+/* Team Members card */
+.card {
+    margin: 20px 16px;
+    background-color: #ffe6ac;
+}
+
+.wrapper.services img{
+    width: 100%;
+}
+
+.card-container h4 {
+    margin: 20px;
+}
+
+.card p{
+    margin: 0 20px;
+}
+
+.card-button {
+    font-size: 1.5rem;
+    padding: 20px;
+    margin: 20px;
+    background-color: #222;
+    color: white;
+    border: none;
+}
+
+/* Our Vision Section */
+.wrapper.vision {
+    background-image: url(/images/vision.jpg);
+    background-repeat: no-repeat;
+    margin: 0 0 20px 0;
+    background-size: 1260px 500px;
+}
+
+.wrapper.vision h4 {
+    color: white;
+}
+
+.wrapper.vision p {
+    color: white;
+    
+}
+
+.wrapper.vision button {
+    font-size: 1.5rem;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 50%);
+    color: white;
+    border-color: white;
+}
+
+
+/* Our Team Section */
+.wrapper.team {
+    background-color: white;
+}
+
+.our-team img {
+    width: 100%;
+    height: 100%;
+}
+
+.description {
+    background-color: #ffe6ac;
+    margin: 0 0 20px 0;
+    padding: 20px;
+}
+
+.our-team h5 {
+    font-weight: 700;
+}
+
+.underline {
+    height: 2px;
+    background-color: #c78c06;
+}
+
+/* Contact Us */
+.wrapper.contact {
+    background-color: white;
+}
+
+.message input[type=text] {
+    width: 100%;
+    padding: 14px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    color: #222;
+}
+
+textarea {
+    box-sizing: border-box;
+    margin: 10px 0;
+    width: 100%;
+    height: 150px;
+    resize: none;
+}
+
+.message input[type=button] {
+    background-color: #222;
+    color: #c78c06;
+    font-size: 1.5rem;
+    padding: 5px;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border: 1px solid;
+}
+
+th {
+    border: 1px solid;
+    padding: 20px;
+}
+
+tr:nth-child(1) {
+    background-color: #ffe6ac;
+}
+
+tr:nth-child(2) {
+    text-align: left;
+}
+
+tr:nth-child(3) {
+    text-align: left;
+}
+
+/* Styling the map */
+iframe {
+    width: 100%;
+}
+
+.wrapper.footer {
+    background-color: #222;
+}
+
+.wrapper.footer p {
+    color: #c78c06;
+}
+
+/* Media query for Large and Medium Devices */
+
+@media screen and (max-width: 760px) {
+#image {
+
+    display: none;
+}
+
+}
+
+ @media screen and (min-width: 760px) {
+
+    /* maximum width of the container is 1200px */
+    body {
+        max-width: 1200px;
+    }
+
+    /* Navigation for different screens  */
+    nav {
+        display: flex;
+    }
+
+    nav .image {
+        background-color: #222;
+        margin: 0 0 0 70px;
+    }
+
+    nav ul {
+        display: flex;
+        text-align: center;
+        padding: 20px;
+        margin: 20px;
+    }
+    
+    nav ul li {
+        font-size: 1rem;
+    }
+    
+    nav form {
+        display: flex;
+        height: 10px;
+        margin: 40px;
+    }
+    
+    .search-btn {
+        margin: 10px;
+        height: 40px;
+    }   
+    .fa.fa-search {
+        font-size: 1rem;
+    }
+    nav ul li:hover > a{
+        font-size: 1rem;
+        padding: 0px;
+    }
+
+    .welcome-box {
+        margin: 0 100px;
+    }
+
+    .about-us {
+        display: flex;
+    }
+    
+    .about-us img {
+        max-width: 400px;
+        height: 250px;
+        margin: 0 0 0 100px;
+    }
+    
+    .about-us h2 {
+        padding: 0px;
+        margin: 0 10px;
+    }
+    
+    .about-us p {
+        margin: 0 100px 0 10px;
+    }
+
+    h4 {
+        font-size: 2rem;
+    }
+
+    /* All the service cards */
+    .card {
+        margin: 10px;
+    }
+    
+    .wrapper.services img{
+        width: 100%;
+    }
+    
+    .our-services {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: .2fr 1.1fr .8fr;
+        grid-template-areas: 
+        "heading heading heading heading heading heading"
+        "digital digital digital marketing marketing marketing"
+        "video video web web print print";
+    }
+    
+    .heading {
+        grid-area: heading;
+    }
+    
+    .digital {
+        grid-area: digital;
+    }
+    
+    .marketing {
+        grid-area: marketing;
+    }
+    
+    .video {
+        grid-area: video;
+    }
+    
+    .web {
+        grid-area: web;
+    }
+
+
+    .print {
+        grid-area: print;
+    }
+
+   
+        background-size: 1200px 500px;
+    }
+
+   /* Our Team Using Grid */
+    .description {
+        margin: 0;
+        padding: 0 20px;
+    }
+    
+    .our-team {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 3fr 3fr;
+        grid-template-areas:
+        "heading heading"
+        "john desc-john"
+        "desc-bob bob";
+    }
+    
+    .heading {
+        grid-area: heading;
+    }
+    
+    .john {
+        grid-area: john;
+    }
+    
+    .description.john {
+        grid-area: desc-john;
+    }
+    
+    .bob {
+        grid-area: bob;
+    }
+    
+    .description.bob {
+        grid-area: desc-bob;
+    }
+    
+   /* Contact Page */
+    .contact-us {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .contact-us .heading {
+        order: 1;
+        width: 100%;
+    }
+    
+    .contact-us .message {
+        order: 2;
+        width: 50%;
+    }
+
+    .message form {
+        padding: 0 10px 0 0;
+    }
+    
+    .contact-us .table {
+        order: 4;
+        width: 100%;
+    }
+    .map h4 {
+        padding: 0 0 0 5px;
+    }
+    
+    .map iframe {
+        padding: 0 0 0 5px;
+    }
+    
+    .contact-us .map {
+        order: 3;
+        width: 50%;
+    }
+    
+    .map h4 {
+        padding: 0 0 0 5px;
+    }
+    
+    .map iframe {
+        padding: 0 0 0 5px;
+    }
+
+
+
