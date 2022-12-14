@@ -388,9 +388,10 @@ iframe {
         grid-area: print;
     }
 
-   
+   /* .banner
+    {
         background-size: 1200px 500px;
-    }
+    } */
 
    /* Our Team Using Grid */
     .description {
@@ -475,3 +476,4 @@ iframe {
 
 
 
+ }
