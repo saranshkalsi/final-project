@@ -59,7 +59,7 @@ nav ul li:hover > a{
 
 /* Main Banner */
 .banner {
-    background-image: url(/final-project/images/main-banner.jpg);
+    background-image: url("/images/main-banner.jpg");
     background-repeat: no-repeat;
     padding: 100px 0;
 }
